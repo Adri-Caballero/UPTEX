@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    overflow: hidden;
+
+
+
+}
+
+
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: rgba(14, 255, 255, 0.164);
+    border-radius: 10px;
+
+}
+
+.center h1 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(218, 200, 200);
+    color: rgb(0, 0, 0);
+}
+
+.documento {
+    color: rgb(67, 4, 119);
+}
+
+.center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.btnentregar {
+    width: auto;
+    font-size: 15px;
+    background-color: #72727282;
+    border: none;
+    opacity: 88%;
+    color: white;
+
+
+
+}
+
+.tabla {
+    margin-left: 1%;
+    width: 97%;
+    font-size: 20px;
+    border: none;
+
+}
+
+.ta {
+    height: 300px;
+    width: 200px;
+    border: 1px solid #ddd;
+    background: #f1f1f1;
+    overflow-y: scroll;
+}
+
+.tablavencimiento {
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.tabla thead {
+    background-color: #72727282;
+}
+
+.formato {
+    position: relative;
+    margin-left: 10%;
+}
+
+.b {
+    margin-left: 40%;
+
+}
+
+.entrada {
+    margin-left: 20%;
+    text-align: center;
+    height: 50%;
+    width: 60%;
+    font-size: 150%;
+}
+
+.entrada1 {
+    margin-left: 100%;
+    text-align: center;
+    height: 50%;
+    width: 60%;
+    font-size: 150%;
+}
+
+.entradafecha {
+    text-align: center;
+    margin-left: 25%;
+    font-size: larger;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: blueviolet;
+    color: brown;
+}
+
+.Comprobante {
+    text-align: center;
+}
+
+.Hoja {
+    border-radius: 1%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: rgba(106, 194, 48, 0);
+
+
+}
+
+.Texto_izquierdo {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.borde {
+    border: 0;
+}
+
+.logo {
+    text-align: left;
+    width: 70px;
+}
+
+.logo2 {
+    float: right;
+    width: 110px;
+}
+
+td {
+
+    background-color: rgba(167, 91, 91, 0);
+}
+
+th {
+    text-align: left;
+    margin-right: 100px;
+
+}
+
+.espacio {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+}
+
+.espacio1 {
+    width: 54%;
+    height: 30px;
+    text-align: center;
+    border-color: aqua;
+}
+
+.texto {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.texto2 {
+    font-weight: lighter;
+}
+
+.espa {
+    margin-top: 3%;
+}
